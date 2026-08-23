@@ -1532,6 +1532,12 @@ textarea,
   gap: 2px;
 }
 
+.commit-history-row-multiline .commit-graph-actions {
+  /* Match the top inset used by the chats, code, and ref columns. */
+  top: 4px;
+  transform: none;
+}
+
 .commit-graph-thread-actions {
   display: inline-flex;
   align-items: center;
